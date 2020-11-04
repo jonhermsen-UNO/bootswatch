@@ -109,6 +109,25 @@ select.form-control {
   border-radius: $border-radius-lg-sketchy !important;
 }
 
+.custom-control-label {
+  &::before {
+    border-color: $dark;
+  }
+  .custom-switch &::after {
+    background-color: $dark;
+  }
+}
+
+.custom-control-input[disabled] ~ .custom-control-label,
+.custom-control-input:disabled ~ .custom-control-label {
+  &::before {
+    border-color: $light;
+  }
+  .custom-switch &::after {
+    background-color: $light;
+  }
+}
+
 // Navs ========================================================================
 
 .dropdown-menu {

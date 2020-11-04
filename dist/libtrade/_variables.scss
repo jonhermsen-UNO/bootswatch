@@ -62,8 +62,9 @@ $table-border-color:          rgba(0, 0, 0, .05) !default;
 
 // Forms
 
-$input-border-color:                $gray-600 !default;
+$input-border-color:                $dark !default;
 $input-focus-border-color:          $input-border-color !default;
+$custom-range-track-bg:             $dark !default;
 
 // Dropdowns
 
@@ -78,6 +79,10 @@ $navbar-light-color:                rgba($black, .3) !default;
 $navbar-light-hover-color:          $gray-700 !default;
 $navbar-light-active-color:         $gray-700 !default;
 $navbar-light-disabled-color:       rgba($black, .1) !default;
+
+// Progress bars
+
+$progress-bg:                       $dark !default;
 
 // Pagination
 
