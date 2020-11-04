@@ -1,4 +1,4 @@
-// Minty 4.5.3
+// LibTrade 4.5.3
 // Bootswatch
 
 //
@@ -17,34 +17,47 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
+// $blue:    #007bff !default;
+// $indigo:  #6610f2 !default;
+// $purple:  #772953 !default;
+// $pink:    #F72A8A !default;
+// $red:     #df382c !default;
+// $orange:  #e95420 !default;
+// $yellow:  #efb73e !default;
+// $green:   #38b44a !default;
+// $teal:    #0CAB69 !default;
+// $cyan:    #17a2b8 !default;
+
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
+$purple:  #593196 !default;
 $pink:    #e83e8c !default;
-$red:     #ff7851 !default;
+$red:     #fc3939 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffce67 !default;
-$green:   #56cc9d !default;
-$teal:    #20c997 !default;
-$cyan:    #6cc3d5 !default;
+$yellow:  #efa31d !default;
+$green:   #13b955 !default;
+$teal:    #1CB084 !default;
+$cyan:    #009cdc !default;
 
-$primary:       #78c2ad !default;
-$secondary:     #f3969a !default;
+$primary:       $teal !default;
+$secondary:     $gray-700 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
+$light:         $gray-300 !default;
 $dark:          $gray-800 !default;
 
 $yiq-contrasted-threshold: 250 !default;
 
 // Body
 
-$body-color:                $gray-600 !default;
+$body-color:                $gray-800 !default;
+$link-decoration:           underline;
 
 // Components
 
+$border-width:                2px !default;
 $border-radius:               .4rem !default;
 $border-radius-lg:            .6rem !default;
 $border-radius-sm:            .3rem !default;
@@ -53,11 +66,15 @@ $border-radius-sm:            .3rem !default;
 
 // stylelint-disable-next-line value-keyword-case
 $headings-font-family:        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$headings-color:              $gray-700 !default;
 
 // Tables
 
 $table-border-color:          rgba(0, 0, 0, .05) !default;
+
+// Forms
+
+$input-border-color:                $gray-600 !default;
+$input-focus-border-color:          $input-border-color !default;
 
 // Dropdowns
 
@@ -76,19 +93,30 @@ $navbar-light-disabled-color:       rgba($black, .1) !default;
 // Pagination
 
 $pagination-color:                  $white !default;
-$pagination-bg:                     $primary !default;
-$pagination-border-color:           $primary !default;
+$pagination-bg:                     $dark !default;
+$pagination-border-color:           $dark !default;
 $pagination-hover-color:            $white !default;
-$pagination-hover-bg:               $secondary !default;
+$pagination-hover-bg:               $primary !default;
 $pagination-hover-border-color:     $pagination-hover-bg !default;
-$pagination-active-bg:              $secondary !default;
+$pagination-active-bg:              $primary !default;
 $pagination-active-border-color:    $pagination-active-bg !default;
-$pagination-disabled-color:         $white !default;
-$pagination-disabled-bg:            #cce8e0 !default;
+$pagination-disabled-color:         $dark !default;
+$pagination-disabled-bg:            $light !default;
 $pagination-disabled-border-color:  $pagination-disabled-bg !default;
+
+// Pill
+
+$nav-pills-link-active-bg:          $primary !default;
+
+// Tabs
+
+$nav-tabs-border-color:             $dark !default;
+$nav-tabs-link-active-border-color: $primary !default;
+$nav-tabs-link-active-bg:           $primary !default;
+$nav-tabs-link-active-color:        $white !default;
 
 // Breadcrumbs
 
-$breadcrumb-bg:                     $primary !default;
-$breadcrumb-divider-color:          $white !default;
-$breadcrumb-active-color:           $breadcrumb-divider-color !default;
+$breadcrumb-bg:                     $dark !default;
+$breadcrumb-divider-color:          $primary !default;
+$breadcrumb-active-color:           $light !default;
