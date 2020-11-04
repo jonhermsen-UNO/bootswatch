@@ -62,10 +62,10 @@ $table-border-color:          rgba(0, 0, 0, .05) !default;
 
 // Forms
 
-$input-border-color:                $dark !default;
-$input-color:                       $dark !default;
+$input-border-color:                $secondary !default;
+$input-color:                       $secondary !default;
 $input-focus-border-color:          $input-border-color !default;
-$custom-range-track-bg:             $dark !default;
+$custom-range-track-bg:             $secondary !default;
 
 // Dropdowns
 
@@ -83,19 +83,19 @@ $navbar-light-disabled-color:       rgba($black, .1) !default;
 
 // Progress bars
 
-$progress-bg:                       $dark !default;
+$progress-bg:                       $secondary !default;
 
 // Pagination
 
 $pagination-color:                  $white !default;
-$pagination-bg:                     $dark !default;
-$pagination-border-color:           $dark !default;
+$pagination-bg:                     $secondary !default;
+$pagination-border-color:           $secondary !default;
 $pagination-hover-color:            $white !default;
 $pagination-hover-bg:               $primary !default;
 $pagination-hover-border-color:     $pagination-hover-bg !default;
 $pagination-active-bg:              $primary !default;
 $pagination-active-border-color:    $pagination-active-bg !default;
-$pagination-disabled-color:         $dark !default;
+$pagination-disabled-color:         $secondary !default;
 $pagination-disabled-bg:            $light !default;
 $pagination-disabled-border-color:  $pagination-disabled-bg !default;
 
@@ -105,13 +105,13 @@ $nav-pills-link-active-bg:          $primary !default;
 
 // Tabs
 
-$nav-tabs-border-color:             $dark !default;
+$nav-tabs-border-color:             $secondary !default;
 $nav-tabs-link-active-border-color: $primary !default;
 $nav-tabs-link-active-bg:           $primary !default;
 $nav-tabs-link-active-color:        $white !default;
 
 // Breadcrumbs
 
-$breadcrumb-bg:                     $dark !default;
+$breadcrumb-bg:                     $secondary !default;
 $breadcrumb-divider-color:          $primary !default;
 $breadcrumb-active-color:           $light !default;

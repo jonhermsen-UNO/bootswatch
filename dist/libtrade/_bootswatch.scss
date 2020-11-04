@@ -111,10 +111,10 @@ select.form-control {
 
 .custom-control-label {
   &::before {
-    border-color: $dark;
+    border-color: $secondary;
   }
   .custom-switch &::after {
-    background-color: $dark;
+    background-color: $secondary;
   }
 }
 
