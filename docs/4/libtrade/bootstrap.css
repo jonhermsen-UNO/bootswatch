@@ -2021,7 +2021,7 @@ pre code {
   color: #5a5a5a;
   background-color: #fff;
   background-clip: padding-box;
-  border: 2px solid #888;
+  border: 2px solid #5a5a5a;
   border-radius: 0.4rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2045,7 +2045,7 @@ pre code {
 .form-control:focus {
   color: #5a5a5a;
   background-color: #fff;
-  border-color: #888;
+  border-color: #5a5a5a;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(28, 176, 132, 0.25);
 }
@@ -3687,7 +3687,7 @@ input[type="button"].btn-block {
   text-align: center;
   white-space: nowrap;
   background-color: #f7f7f9;
-  border: 2px solid #888;
+  border: 2px solid #5a5a5a;
   border-radius: 0.4rem;
 }
 
@@ -3791,7 +3791,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #888;
+  border-color: #5a5a5a;
 }
 
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
@@ -3925,7 +3925,7 @@ input[type="button"].btn-block {
   color: #5a5a5a;
   vertical-align: middle;
   background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
-  border: 2px solid #888;
+  border: 2px solid #5a5a5a;
   border-radius: 0.4rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -3933,7 +3933,7 @@ input[type="button"].btn-block {
 }
 
 .custom-select:focus {
-  border-color: #888;
+  border-color: #5a5a5a;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(28, 176, 132, 0.25);
 }
@@ -3997,7 +3997,7 @@ input[type="button"].btn-block {
 }
 
 .custom-file-input:focus ~ .custom-file-label {
-  border-color: #888;
+  border-color: #5a5a5a;
   box-shadow: 0 0 0 0.2rem rgba(28, 176, 132, 0.25);
 }
 
@@ -4026,7 +4026,7 @@ input[type="button"].btn-block {
   line-height: 1.5;
   color: #5a5a5a;
   background-color: #fff;
-  border: 2px solid #888;
+  border: 2px solid #5a5a5a;
   border-radius: 0.4rem;
 }
 
@@ -4106,7 +4106,7 @@ input[type="button"].btn-block {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #eceeef;
+  background-color: #5a5a5a;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -4139,7 +4139,7 @@ input[type="button"].btn-block {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #eceeef;
+  background-color: #5a5a5a;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -4180,13 +4180,13 @@ input[type="button"].btn-block {
 }
 
 .custom-range::-ms-fill-lower {
-  background-color: #eceeef;
+  background-color: #5a5a5a;
   border-radius: 1rem;
 }
 
 .custom-range::-ms-fill-upper {
   margin-right: 15px;
-  background-color: #eceeef;
+  background-color: #5a5a5a;
   border-radius: 1rem;
 }
 
@@ -4251,7 +4251,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 2px solid #343a40;
+  border-bottom: 2px solid #5a5a5a;
 }
 
 .nav-tabs .nav-item {
@@ -4265,7 +4265,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #f7f7f9 #f7f7f9 #343a40;
+  border-color: #f7f7f9 #f7f7f9 #5a5a5a;
 }
 
 .nav-tabs .nav-link.disabled {
@@ -4979,7 +4979,7 @@ input[type="button"].btn-block {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #343a40;
+  background-color: #5a5a5a;
   border-radius: 0.4rem;
 }
 
@@ -5027,8 +5027,8 @@ input[type="button"].btn-block {
   line-height: 1.25;
   color: #fff;
   text-decoration: none;
-  background-color: #343a40;
-  border: 2px solid #343a40;
+  background-color: #5a5a5a;
+  border: 2px solid #5a5a5a;
 }
 
 .page-link:hover {
@@ -5064,7 +5064,7 @@ input[type="button"].btn-block {
 }
 
 .page-item.disabled .page-link {
-  color: #343a40;
+  color: #5a5a5a;
   pointer-events: none;
   cursor: auto;
   background-color: #eceeef;
@@ -5446,7 +5446,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   overflow: hidden;
   line-height: 0;
   font-size: 0.75rem;
-  background-color: #f7f7f9;
+  background-color: #5a5a5a;
   border-radius: 0.4rem;
 }
 
@@ -10358,6 +10358,23 @@ textarea.form-control,
 select,
 select.form-control {
   border-radius: 555px 25px 15px 25px/25px 5px 35px 555px !important;
+}
+
+.custom-control-label::before {
+  border-color: #5a5a5a;
+}
+
+.custom-switch .custom-control-label::after {
+  background-color: #5a5a5a;
+}
+
+.custom-control-input[disabled] ~ .custom-control-label::before, .custom-control-input:disabled ~ .custom-control-label::before {
+  border-color: #eceeef;
+}
+
+.custom-switch .custom-control-input[disabled] ~ .custom-control-label::after, .custom-switch
+.custom-control-input:disabled ~ .custom-control-label::after {
+  background-color: #eceeef;
 }
 
 .dropdown-menu {
