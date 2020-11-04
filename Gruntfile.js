@@ -24,6 +24,7 @@ const SWATCHES = [
   'darkly',
   'flatly',
   'journal',
+  'libtrade',
   'litera',
   'lumen',
   'lux',
