@@ -10346,6 +10346,28 @@ legend {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+textarea::-webkit-input-placeholder, select::-webkit-input-placeholder, input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+textarea::-moz-placeholder, select::-moz-placeholder, input::-moz-placeholder {
+  text-align: center;
+}
+
+textarea:-ms-input-placeholder, select:-ms-input-placeholder, input:-ms-input-placeholder {
+  text-align: center;
+}
+
+textarea::-ms-input-placeholder, select::-ms-input-placeholder, input::-ms-input-placeholder {
+  text-align: center;
+}
+
+textarea::placeholder,
+select::placeholder,
+input::placeholder {
+  text-align: center;
+}
+
 input,
 .form-control,
 .input-group-text,

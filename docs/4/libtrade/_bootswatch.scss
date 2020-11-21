@@ -95,6 +95,12 @@ legend {
   font-family: $headings-font-family;
 }
 
+textarea::placeholder,
+select::placeholder,
+input::placeholder {
+  text-align: center;
+}
+
 input,
 .form-control,
 .input-group-text,
