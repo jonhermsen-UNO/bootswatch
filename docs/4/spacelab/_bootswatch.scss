@@ -1,12 +1,13 @@
-// Spacelab 4.5.3
+// Spacelab 4.6.0
 // Bootswatch
 
 
 // Variables ===================================================================
 
 $web-font-path: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" !default;
-@import url($web-font-path);
-
+@if $web-font-path {
+  @import url($web-font-path);
+}
 // Mixins ======================================================================
 
 @mixin btn-shadow($color){
